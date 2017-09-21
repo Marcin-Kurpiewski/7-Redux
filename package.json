@@ -1,0 +1,26 @@
+{
+  "name": "7-redux",
+  "version": "1.0.0",
+  "description": "redux react action dispatch ",
+  "main": "index.js",
+  "dependencies": {
+    "react-redux": "^5.0.6",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcin-Kurpiewski/7-Redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcin-Kurpiewski/7-Redux/issues"
+  },
+  "homepage": "https://github.com/Marcin-Kurpiewski/7-Redux#readme"
+}
