@@ -34,7 +34,7 @@ function thumbUp(id){
     return{
         type:THUMB_UP,
         id:uuid.v4(),
-        count: +1
+
     }
 }
 
@@ -42,7 +42,12 @@ function thumbDown(id){
     return{
         type:THUMB_DOWN,
         id:uuid.v4(),
-        count: -1
+
     }
 }
 
+export const ADD_COMMENT= 'ADD_COMMENT';
+export const EDIT_COMMENT = 'EDIT_COMMET';
+export const REMOVE_COMMENT = 'REMOVE_COMMET';
+export const THUMB_UP = 'THUMB_UP';
+export const THUMB_DOWN = 'THUMB_DOWN';

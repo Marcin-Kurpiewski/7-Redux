@@ -1,3 +1,13 @@
-/**
- * Created by HP-M on 21.09.2017.
- */
+import { combineReducers } from 'redux';
+import comments from './comments';
+import users from './users';
+
+
+
+const app = combineReducers({
+    comments,
+    users
+});
+
+
+
